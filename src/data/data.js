@@ -3,7 +3,7 @@ export default [
     "Id": 1,
     "Type": "Temperatura extrema",
     "Subtype": "Ola de calor",
-    "Location": "Andalucía",
+    "Location": "España",
     "Year": 2003,
     "Deaths": 15090
 },
@@ -19,7 +19,7 @@ export default [
     "Id": 3,
     "Type": "Temperatura extrema",
     "Subtype": "Ola de calor",
-    "Location": "Figueres",
+    "Location": "España",
     "Year": 2023,
     "Deaths": 8352
 },
