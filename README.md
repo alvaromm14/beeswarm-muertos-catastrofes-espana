@@ -1,0 +1,1 @@
+Gráfico con el número de muertos en catástrofes naturales según el tipo de fenómeno.
