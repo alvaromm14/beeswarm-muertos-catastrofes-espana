@@ -29,9 +29,9 @@
   
   const margin = {
     top: 25,
-    right: 100,
+    right: window.innerWidth < 568 ? 65 : 100,
     bottom: 25,
-    left: 100
+    left: window.innerWidth < 568 ? 15 : 100,
   }
 
   $: innerWidth = width - margin.left - margin.right;
@@ -68,7 +68,7 @@
   
   $: radiusScale = scaleSqrt()
     .domain([1, 15090])
-    .range(width < 568 ? [2 , 70] : [3, 100]);
+    .range(width < 568 ? [2 , 60] : [3, 100]);
   
   import AxisX from "$components/AxisX.svelte";
   import Legend from "$components/Legend.svelte";
